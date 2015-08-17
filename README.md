@@ -23,13 +23,13 @@ on accuracy, etc for the paper
 the WAV rules
 --------------------------------
 
-for enrollment of a user
+for enrollment of a user:
 	a) have to pick an approved pass phrase from here https://siv.voiceprintportal.com/sivservice/att/en-US-grammar.grxml
 	b) have to have 3 different recordings of that one phrase
 	c) 3s to 5s recording time duration.
 	d) First 500ms and Last 500ms need only background noise. No speaking/talking.
 
-for user authentication
+for user authentication:
 	a) has to be a fresh recording
 	b) has to be the same passphrase as above
 	c) other properties as above
