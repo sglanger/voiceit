@@ -9,7 +9,6 @@
 # from 4.22.2015 email from Noel Grover
 ############################################
 clear
-rm results_auth.txt
 
 ################### do not touch from here down
 if [[ $# -ne 2 ]] ; then
