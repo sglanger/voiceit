@@ -25,7 +25,8 @@ else
 fi
 
 user=$2
-devID="200056"
+# insert your ID below
+devID="2000xx"
 result=$($cmd --request POST --header "VsitEmail: $user@$devID.com" --header "VsitPassword: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92" --header "VsitDeveloperId: $devID"  --header "VsitFirstName: test" --header "VsitLastName: test" --header "VsitPhone1: " --header "VsitPhone2: " --header "VsitPhone3: " https://siv.voiceprintportal.com/sivservice/api/users )
 echo ""
 echo $result  >> results_create.txt ; echo "" >> results_create.txt

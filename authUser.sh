@@ -27,7 +27,8 @@ fi
 user=$2
 path=$(pwd)
 path=$path/$user
-devID="200056"
+# insert your ID below
+devID="2000xx"
 	
 cd $path
 ret=$(ls  *_au*)
